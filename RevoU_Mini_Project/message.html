@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Message Us</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <nav class="navbar">
+    <img src="images/logo.png" alt="Logo" class="logo-img" />
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="nav-item active">Home</a></li>
+        <li><a href="profile.html" class="nav-item">Profile</a></li>
+        <li><a href="projects.html" class="nav-item">Projects</a></li>
+        <li><a href="message.html" class="nav-item">Message Us</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger">&#9776;</div>
+  </nav>
+
+  <section class="message-us-section">
+    <h2>Kirim Pesan Kepada Kami</h2>
+    <form class="message-form" id="contactForm">
+      <input type="text" id="name" placeholder="Nama Lengkap" required />
+      <input type="email" id="email" placeholder="Email" required />
+      <input type="text" id="subject" placeholder="Subjek" required />
+      <textarea id="message" placeholder="Pesan Anda" required></textarea>
+      <button type="submit" class="btn-next">Kirim</button>
+    </form>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
